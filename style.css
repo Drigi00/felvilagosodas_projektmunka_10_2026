@@ -4,6 +4,7 @@ body {
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
+    
 }
 
 .float_felelos { clear: both; } /*floatnak hogy ne essen egybe*/
@@ -62,6 +63,7 @@ body {
     margin-left: 100px;
     padding: 30px;
     max-width: 850px;
+    margin: auto;
 }
 
 
@@ -96,7 +98,10 @@ body {
     object-fit: cover;
 }
 
-.szamok { font-size: 11px; }
+.szamok { font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+ }
 
 .szoveg-doboz {
     border: 1px solid white;
