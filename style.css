@@ -7,7 +7,6 @@ body {
     
 }
 
-.float_felelos { clear: both; } /*floatnak hogy ne essen egybe*/
 
 
 .oldalsav {
@@ -71,19 +70,12 @@ body {
     border: 1px solid white;
     padding: 20px;
     margin-bottom: 20px;
-}
-
-.bal-oldal {
-    float: left;
-    width: 30%;
     text-align: center;
 }
 
-.jobb-oldal {
-    float: left;
-    width: 65%;
-    margin-left: 5%;
-}
+
+
+
 
 .kep-keret {
     border: 1px solid white;
@@ -99,9 +91,9 @@ body {
 }
 
 .szamok { font-size: 14px;
-    font-weight: bold;
-    font-style: italic;
- }
+          font-style: italic;
+          font-weight: bold;
+}
 
 .szoveg-doboz {
     border: 1px solid white;
@@ -134,4 +126,15 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 850px) {
+   .kep-rács {
+  
+    grid-template-columns: 1fr;
+    
+}
+    
 }
