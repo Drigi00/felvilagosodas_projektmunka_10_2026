@@ -96,7 +96,10 @@ body {
     object-fit: cover;
 }
 
-.szamok { font-size: 11px; }
+.szamok { font-size: 14px;
+          font-style: italic;
+          font-weight: bold;
+}
 
 .szoveg-doboz {
     border: 1px solid white;
