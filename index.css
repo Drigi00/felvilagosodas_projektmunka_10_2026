@@ -1,0 +1,147 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    border-right: 1px solid #333;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.icon-link {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.active-icon { color: #00d2ff; }
+
+
+.top-nav {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #333;
+}
+
+.nav-buttons {
+    display: inline-block;
+    border: 1px solid #00d2ff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nav-buttons a {
+    float: left;
+    padding: 10px 25px;
+    color: #00d2ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-buttons a.active {
+    background: #00d2ff;
+    color: #000;
+}
+
+
+.content-wrapper {
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+    padding-left: 40px;
+}
+
+
+.feed-post {
+    border: 1px solid #333; 
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.post-image-column {
+    float: left;
+    width: 42%;
+}
+
+.post-text-column {
+    float: left;
+    width: 53%;
+    margin-left: 5%;
+}
+
+
+.image-frame {
+    border: 1px solid #00d2ff; 
+    padding: 5px;
+    background: #111;
+}
+
+.post-img {
+    width: 100%;
+    display: block;
+    filter: grayscale(20%); 
+}
+
+
+.post-actions {
+    margin-top: 10px;
+    border: 1px solid #333;
+    padding: 8px;
+    display: inline-block;
+}
+
+.action-item {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.bi-heart-fill { color: #ff3b5c; }
+.bi-pencil-fill { color: #00d2ff; }
+
+
+.info-box {
+    border: 1px solid #00d2ff; 
+    padding: 15px;
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 200px;
+}
+
+
+.comments-container {
+    margin-top: 25px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.comment-item {
+    border: 1px solid #333;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background: #050505;
+}
+
+.reply-group {
+    margin-left: 40px; 
+}
+
+.comment-item.reply {
+    border-left: 3px solid #00d2ff; 
+}
