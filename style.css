@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.takarito { clear: both; }
+.float_felelos { clear: both; } /*floatnak hogy ne essen egybe*/
 
 
 .oldalsav {
@@ -23,7 +23,7 @@ body {
 .oldalsav-ikonok { margin-top: 80px; }
 
 .ikon-link {
-    display: block;
+    display: block; /* ikonok külön sorba legyenek, ne egybe */
     font-size: 25px;
     color: white;
     margin-bottom: 25px;
@@ -32,12 +32,6 @@ body {
 
 .aktiv-ikon { color: #00ccff; }
 
-.nav-felirat {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    font-size: 12px;
-}
 
 
 .felso-menu {
