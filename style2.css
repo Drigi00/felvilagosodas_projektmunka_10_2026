@@ -1,0 +1,132 @@
+
+body {
+    background-color: #280137;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.float_felelos { clear: both; } /*floatnak hogy ne essen egybe*/
+
+
+.oldalsav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    border-right: 1px solid white;
+    text-align: center;
+    background: #280137;
+}
+
+.oldalsav-ikonok { margin-top: 80px; }
+
+.ikon-link {
+    display: block; /* ikonok külön sorba legyenek, ne egybe */
+    font-size: 25px;
+    color: white;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.aktiv-ikon { color: #00ccff; }
+
+
+
+.felso-menu {
+    border-bottom: 1px solid white;
+    padding: 10px;
+    height: 45px;
+}
+
+
+
+.gombok-helye { text-align: center; }
+
+.menu-gomb {
+    padding: 8px 25px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
+
+.menu-gomb.aktiv {
+    background-color: #0080ff;
+    color: #fff;
+}
+
+
+.tartalom-doboz {
+    margin-left: 100px;
+    padding: 30px;
+    max-width: 850px;
+}
+
+
+.profil-fejlec {
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bal-oldal {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.jobb-oldal {
+    float: left;
+    width: 65%;
+    margin-left: 5%;
+}
+
+.kep-keret {
+    border: 1px solid white;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 10px;
+}
+
+.profil-kep {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.szamok { font-size: 11px; }
+
+.szoveg-doboz {
+    border: 1px solid white;
+    padding: 15px;
+    min-height: 200px;
+    font-size: 14px;
+}
+
+
+.galeria-doboz {
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.kep-rács {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.rács-elem {
+    
+    border: 1px solid white;
+    background: #fdfdfd;
+    align-items: center;
+    justify-content: center;
+}
+
+.rács-elem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
