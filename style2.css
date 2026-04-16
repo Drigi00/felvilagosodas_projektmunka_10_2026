@@ -71,10 +71,7 @@ body {
 
 
 
-
-
 .kep-keret {
-    border: 1px solid white;
     width: 150px;
     height: 150px;
     margin: 0 auto 10px;
@@ -92,7 +89,6 @@ body {
 }
 
 .szoveg-doboz {
-    border: 1px solid white;
     padding: 15px;
     min-height: 200px;
     font-size: 14px;
@@ -100,7 +96,6 @@ body {
 
 
 .galeria-doboz {
-    border: 1px solid white;
     padding: 15px;
 }
 
@@ -111,8 +106,6 @@ body {
 }
 
 .rács-elem {
-    
-    border: 1px solid white;
     background: #fdfdfd;
     align-items: center;
     justify-content: center;
