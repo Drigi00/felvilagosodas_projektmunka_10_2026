@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #280137;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.oldalsav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    border-right: 1px solid white;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #280137;
+    z-index: 10;
+}
+
+.ikon-link {
+    display: block;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.aktiv-ikon { color: #00ccff; }
+
+.nav-felirat {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 12px;
+}
+
+
+.felso-menu {
+    padding: 20px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.menu-gomb {
+    display: inline-block;
+    padding: 10px 35px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #0080ff;
+    background: white;
+    margin: 0 -2px;
+}
+
+.menu-gomb.aktiv {
+    background-color: #0080ff;
+    color: white;
+}
+
+
+.tartalom-doboz {
+    margin-left: 70px;
+    padding: 40px;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profil-fejlec {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 30px;
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 30px;
+    align-items: start;
+}
+
+.bal-oldal {
+    text-align: center;
+}
+
+.kep-keret {
+    width: 160px;
+    height: 160px;
+    border: 1px solid white;
+    margin: 0 auto 10px;
+}
+
+.profil-kep {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.szamok {
+    border: 1px solid white;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.jobb-oldal p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+.uzenet-doboz {
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.valasz-doboz {
+    border: 1px solid white;
+    padding: 15px;
+    margin-left: 60px; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .profil-fejlec {
+        grid-template-columns: 1fr; 
+    }
+    .kep-racs {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .valasz-doboz {
+        margin-left: 20px;
+    }
+}
