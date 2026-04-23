@@ -114,14 +114,11 @@ body {
 
 
 
-@media screen and (max-width: 750px) {
-    .profil-fejlec {
-        grid-template-columns: 1fr; 
-    }
-    .kep-racs {
-        grid-template-columns: repeat(2, 1fr); 
-    }
-    .valasz-doboz {
-        margin-left: 20px;
-    }
+@media screen and (max-width: 850px) {
+   .kep-rács {
+  
+    grid-template-columns: 1fr;
+    
+}
+    
 }
