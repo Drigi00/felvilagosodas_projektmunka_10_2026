@@ -8,14 +8,12 @@ body {
 }
 
 
-
 .oldalsav {
     position: fixed;
     left: 0;
     top: 0;
     width: 70px;
     height: 100%;
-    border-right: 1px solid white;
     text-align: center;
     background: #280137;
 }
@@ -33,9 +31,8 @@ body {
 .aktiv-ikon { color: #00ccff; }
 
 
-
 .felso-menu {
-    border-bottom: 1px solid white;
+    
     padding: 10px;
     height: 45px;
 }
@@ -52,11 +49,6 @@ body {
     margin: 0 5px;
 }
 
-.menu-gomb.aktiv {
-    background-color: #0080ff;
-    color: #fff;
-}
-
 
 .tartalom-doboz {
     margin-left: 100px;
@@ -67,7 +59,6 @@ body {
 
 
 .profil-fejlec {
-    border: 1px solid white;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -75,10 +66,7 @@ body {
 
 
 
-
-
 .kep-keret {
-    border: 1px solid white;
     width: 150px;
     height: 150px;
     margin: 0 auto 10px;
@@ -90,21 +78,19 @@ body {
     object-fit: cover;
 }
 
-.szamok { font-size: 14px;
+.szamok { font-size: 18px;
           font-style: italic;
           font-weight: bold;
 }
 
 .szoveg-doboz {
-    border: 1px solid white;
     padding: 15px;
     min-height: 200px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 
 .galeria-doboz {
-    border: 1px solid white;
     padding: 15px;
 }
 
@@ -115,8 +101,6 @@ body {
 }
 
 .rács-elem {
-    
-    border: 1px solid white;
     background: #fdfdfd;
     align-items: center;
     justify-content: center;
