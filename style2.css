@@ -75,7 +75,7 @@ body {
 .profil-kep {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Egyszerűen: úgy méretezi a képet, hogy teljesen kitöltse a dobozát, miközben megtartja az arányait. */
 }
 
 .szamok { font-size: 14px;
