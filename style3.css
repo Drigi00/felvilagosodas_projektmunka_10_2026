@@ -4,8 +4,6 @@ body {
     background-color: #280137;
     color: white;
     font-family: Arial, sans-serif;
-    margin: 0;
-    
 }
 
 
@@ -16,31 +14,32 @@ body {
     width: 70px;
     height: 100%;
     text-align: center;
-    background: #280137;
+    padding-top: 50px;
+    background-color: #280137;
 }
 
-.oldalsav-ikonok { margin-top: 80px; }
-
 .ikon-link {
-    display: block; /* ikonok külön sorba legyenek, ne egybe */
+    display: block;
     font-size: 25px;
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     text-decoration: none;
 }
 
 .aktiv-ikon { color: #00ccff; }
 
-
-.felso-menu {
-    
-    padding: 10px;
-    height: 45px;
+.nav-felirat {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 12px;
 }
 
 
-
-.gombok-helye { text-align: center; }
+.felso-menu {
+    padding: 20px;
+    text-align: center;
+}
 
 .menu-gomb {
     padding: 8px 25px;
@@ -53,27 +52,30 @@ body {
 
 
 .tartalom-doboz {
-    margin-left: 100px;
-    padding: 30px;
-    max-width: 850px;
-    margin: auto;
+    margin-left: 70px;
+    padding: 40px;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-
 
 .profil-fejlec {
-
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 30px;
     padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-
+    margin-bottom: 30px;
+    align-items: start;
 }
 
-
+.bal-oldal {
+    text-align: center;
+}
 
 .kep-keret {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
+
     margin: 0 auto 10px;
 }
 
@@ -83,50 +85,42 @@ body {
     object-fit: cover;
 }
 
-.szamok { font-size: 14px;
-          font-style: italic;
-          font-weight: bold;
-}
-
-.szoveg-doboz {
-    padding: 15px;
-    min-height: 200px;
+.szamok {
+    padding: 5px 10px;
     font-size: 14px;
-    margin-right: 10px;
+}
+
+.jobb-oldal p {
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 
-.galeria-doboz {
+.uzenet-doboz {
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.valasz-doboz {
+    border: 1px solid white;
     padding: 15px;
-}
-
-.kep-rács {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-}
-
-.rács-elem {
-    background: #fdfdfd;
-    align-items: center;
-    justify-content: center; /* Azt mondja meg, hogy az elemek hogyan helyezkedjenek el vízszintesen (alapértelmezésben) a szülőelemen belül. */
-}
-
-.rács-elem img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-a{color: white;
+    margin-left: 60px; 
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 
-@media screen and (max-width: 850px) {
-   .kep-rács {
-  
-    grid-template-columns: 1fr;
-    
-}
-    
+
+@media screen and (max-width: 750px) {
+    .profil-fejlec {
+        grid-template-columns: 1fr; 
+    }
+    .kep-racs {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .valasz-doboz {
+        margin-left: 20px;
+    }
 }
