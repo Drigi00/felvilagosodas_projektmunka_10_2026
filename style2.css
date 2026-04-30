@@ -104,7 +104,7 @@ body {
 .rács-elem {
     background: #fdfdfd;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Azt mondja meg, hogy az elemek hogyan helyezkedjenek el vízszintesen (alapértelmezésben) a szülőelemen belül. */
 }
 
 .rács-elem img {
